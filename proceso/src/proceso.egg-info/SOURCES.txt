@@ -1,0 +1,14 @@
+setup.py
+proceso/src/proceso.egg-info/PKG-INFO
+proceso/src/proceso.egg-info/SOURCES.txt
+proceso/src/proceso.egg-info/dependency_links.txt
+proceso/src/proceso.egg-info/entry_points.txt
+proceso/src/proceso.egg-info/requires.txt
+proceso/src/proceso.egg-info/top_level.txt
+proceso/src/_internals/__init__.py
+proceso/src/_internals/agregar_a_excel.py
+proceso/src/_internals/clear_date.py
+proceso/src/_internals/procesar_todos_los_archivos.py
+proceso/src/_internals/read_data.py
+proceso/src/_internals/read_date_casino.py
+proceso/src/proceso.egg-info/SOURCES.txt

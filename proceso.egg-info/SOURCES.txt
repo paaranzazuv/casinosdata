@@ -1,0 +1,10 @@
+setup.py
+proceso/__init__.py
+proceso/__main__.py
+proceso.egg-info/PKG-INFO
+proceso.egg-info/SOURCES.txt
+proceso.egg-info/dependency_links.txt
+proceso.egg-info/requires.txt
+proceso.egg-info/top_level.txt
+proceso/src/__init__.py
+proceso/src/_internals/__init__.py
