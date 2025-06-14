@@ -7,11 +7,7 @@ setup(
     version="0.1",
     package_dir={"": "proceso/src"},
     packages=find_packages(where="proceso/src"),
-    install_requires=[
-        "pandas",
-        "openpyxl",
-        # Agrega aquí otras dependencias si quieres (como numpy, etc.)
-    ],
+    install_requires=requirements.txt,
     entry_points={
         "console_scripts": [
             "proceso=__main__:main"
