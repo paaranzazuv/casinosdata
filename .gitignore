@@ -1,7 +1,4 @@
-# Entornos virtuales
-.venv/
-env/
-venv/
+
 
 # Archivos temporales de Python
 __pycache__/
@@ -22,10 +19,7 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# Archivos de datos de entrada y salida
-data/input/
-data/procesados/
-*.xlsx
+
 
 # Archivos ocultos
 *.swp
