@@ -29,7 +29,7 @@ def main():
 
     for archivo in archivos:
         try:
-            print(f"📄 Procesando: {archivo}")
+            print(f"Procesando: {archivo}")
             data = read_data(archivo)
             date, casino = read_date_casino(archivo)
             data = clear_date(data, date, casino)
@@ -37,7 +37,7 @@ def main():
 
             shutil.move(archivo, os.path.join(procesados_folder, os.path.basename(archivo)))
         except Exception as e:
-            print(f"❌ Error procesando {archivo}: {e}")
+            print(f"Error procesando {archivo}: {e}")
 
 if __name__ == "__main__":
     main()
