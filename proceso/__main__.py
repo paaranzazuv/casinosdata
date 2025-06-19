@@ -42,3 +42,11 @@ def main():
 
 if __name__ == "__main__":
     main()
+excel(ruta_salida, data)
+
+            shutil.move(archivo, os.path.join(procesados_folder, os.path.basename(archivo)))
+        except Exception as e:
+            print(f"❌ Error procesando {archivo}: {e}")
+
+if __name__ == "__main__":
+    main()
