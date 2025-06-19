@@ -8,7 +8,6 @@ from proceso.src._internals.read_data import read_data
 from proceso.src._internals.read_date_casino import read_date_casino
 
 def main():
-    
     parser = argparse.ArgumentParser(description="Procesar archivos Excel de casinos")
     parser.add_argument('--input', '-i', required=True, help="Ruta de la carpeta de entrada con archivos .xlsx")
     parser.add_argument('--output', '-o', required=True, help="Ruta del archivo .xlsx de salida")
@@ -42,7 +41,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-excel(ruta_salida, data)
+
 
             shutil.move(archivo, os.path.join(procesados_folder, os.path.basename(archivo)))
         except Exception as e:
