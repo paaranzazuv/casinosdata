@@ -43,7 +43,3 @@ if __name__ == "__main__":
     main()
 
 
-            shutil.move(archivo, os.path.join(procesados_folder, os.path.basename(archivo)))
-        except Exception as e:
-            print(f"❌ Error procesando {archivo}: {e}")
-
