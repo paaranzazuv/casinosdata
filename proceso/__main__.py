@@ -48,5 +48,3 @@ excel(ruta_salida, data)
         except Exception as e:
             print(f"❌ Error procesando {archivo}: {e}")
 
-if __name__ == "__main__":
-    main()
